@@ -6,46 +6,6 @@ spec:
       branch: master
       repo_clone_url: https://github.com/shahednasser/reservations-system.git
     name: reservations-system
-    envs:
-    - key: APP_KEY
-      value: "base64:UMFqsKemBfsbeWByulJ8zsHnsSRWUKcJsbfP7tGu+e8="
-    - key: DB_CONNECTION
-      value: "mysql"
-    - key: DB_HOST
-      value: ${db.HOSTNAME}
-    - key: DB_PORT
-      value: ${db.PORT}
-    - key: DB_DATABASE
-      value: ${db.DATABASE}
-    - key: DB_USERNAME
-      value: ${db.USERNAME}
-    - key: DB_PASSWORD
-      value: ${db.PASSWORD}
-    - key: BROADCAST_DRIVER
-      value: "pusher"
-    - key: CACHE_DRIVER
-      value: "file"
-    - key: SESSION_DRIVER
-      value: "file"
-    - key: SESSION_LIFETIME
-      value: "120"
-    - key: QUEUE_DRIVER
-      value: "sync"
-    - key: PUSHER_APP_ID
-      value: ""
-    - key: PUSHER_APP_KEY
-      value: ""
-    - key: PUSHER_APP_SECRET
-      value: ""
-    - key: PUSHER_APP_CLUSTER
-      value: ""
-    - key: ONESIGNAL_APP_ID
-      value: ""
-    - key: ONESIGNAL_REST_API_KEY
-      value: ""
-    run_command: heroku-php-apache2 public/
-    routes:
-    - path: /
   databases:
     - name: db
       engine: MYSQL
