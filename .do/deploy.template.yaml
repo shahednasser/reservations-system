@@ -10,7 +10,7 @@ spec:
     - key: APP_KEY
       value: "base64:UMFqsKemBfsbeWByulJ8zsHnsSRWUKcJsbfP7tGu+e8="
     - key: DB_CONNECTION
-      value: "mysql"
+      value: "pgsql"
     - key: DB_HOST
       value: ${db.HOSTNAME}
     - key: DB_PORT
