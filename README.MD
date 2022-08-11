@@ -45,6 +45,8 @@ ONESIGNAL_REST_API_KEY=
 
 ## Build Assets
 
+Rename `package.json.template` to `package.json` and `package-lock.json.template` to `package-lock.json`.
+
 1. Install dependencies:
 
 ```bash
