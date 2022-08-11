@@ -43,6 +43,7 @@ spec:
       value: ""
     - key: ONESIGNAL_REST_API_KEY
       value: ""
+    build_command: php artisan migrate
     run_command: heroku-php-apache2 public/
     routes:
     - path: /
