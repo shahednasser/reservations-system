@@ -160,9 +160,9 @@ return [
         App\Providers\BroadcastServiceProvider::class,
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
-        Krlove\EloquentModelGenerator\Provider\GeneratorServiceProvider::class,
-        Way\Generators\GeneratorsServiceProvider::class,
-        Xethron\MigrationsGenerator\MigrationsGeneratorServiceProvider::class,
+        // Krlove\EloquentModelGenerator\Provider\GeneratorServiceProvider::class,
+        // Way\Generators\GeneratorsServiceProvider::class,
+        // Xethron\MigrationsGenerator\MigrationsGeneratorServiceProvider::class,
     ],
 
     /*
