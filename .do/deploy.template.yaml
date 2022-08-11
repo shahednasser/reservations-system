@@ -6,6 +6,3 @@ spec:
       branch: master
       repo_clone_url: https://github.com/shahednasser/reservations-system.git
     name: reservations-system
-  databases:
-    - name: db
-      engine: MYSQL
