@@ -1,0 +1,64 @@
+.navbar {
+  font-size: 1.1rem;
+}
+
+.search-form {
+  display: inline;
+  position: relative;
+  opacity: .5;
+}
+
+.search-form input[type=search] {
+  background-color: transparent;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid #FFF;
+  padding-left: 1em;
+  color: #FFF;
+  width: 200px;
+}
+
+.search-form button[type=submit] {
+  -webkit-appearance: none;
+  background: transparent;
+  border: 0;
+  position: absolute;
+  height: 24px;
+  width: 24px;
+  left: .25em;
+  top: -.25em;
+}
+
+input[type=search]:-webkit-autofill,
+input[type=search]:-webkit-autofill:hover,
+input[type=search]:-webkit-autofill:focus {
+  -webkit-text-fill-color: #FFF;
+  -webkit-box-shadow: 0 0 0px 1000px transparent inset;
+  -webkit-transition: background-color 5000s ease-in-out 0s;
+  -o-transition: background-color 5000s ease-in-out 0s;
+  transition: background-color 5000s ease-in-out 0s;
+}
+
+.search-form *:active, .search-form *:focus {
+  outline: none;
+}
+
+.icon-button {
+  cursor: pointer;
+}
+
+.user-info {
+  padding: 0 5px 5px;
+}
+
+.user-info .user-info-icon {
+  display: inline-block;
+  width: 20px;
+}
+
+.user-info > a, .user-info > a:hover, .user-info > a:visited, .user-info > a:active {
+  color: #fff;
+  font-size: 15px;
+  text-decoration: none;
+}

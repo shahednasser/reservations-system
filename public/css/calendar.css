@@ -1,0 +1,157 @@
+#calendar {
+  margin-top: 20px;
+}
+.card:not(.full-card) {
+  max-height: calc(3em * 10 + 4em);
+  overflow: hidden;
+}
+
+.red-legend, .green-legend, .blue-legend {
+  width: 2em;
+  height: 1em;
+  display: inline-block;
+  margin-left: 1em;
+}
+
+.red-legend, .red-reservation {
+  background-color: #94111E;
+}
+
+.green-legend, .green-reservation {
+  background-color: #00652E;
+}
+
+.blue-legend, .blue-reservation {
+  background-color: #004071 !important;
+}
+
+.red-reservation {
+  border-bottom-color: #94111E !important;
+}
+
+.green-reservation {
+  border-bottom-color: #00652E !important;
+}
+
+.blue-reservation {
+  border-bottom-color: #004071 !important;
+}
+
+.legends {
+  font-size: 1rem;
+  padding: .5em;
+}
+
+.reservation {
+  cursor: pointer;
+}
+
+.selected-data {
+  background-color: rgba(40, 167, 69, .33);
+}
+
+#gotoBtn {
+  width: 100%;
+  font-size: 1.2rem;
+}
+
+.fc-timeline .fc-divider {
+  background-color: #ff0 !important;
+}
+
+.fc-header-toolbar .fc-right h2 {
+  direction: rtl;
+}
+
+.full-height-event {
+  border: 0 !important;
+  margin: 0 !important;
+}
+
+.hide-calendar {
+  visibility: hidden;
+}
+
+.lds-dual-ring {
+  display: block;
+  width: 64px;
+  height: 64px;
+  margin: 2em auto;
+}
+.lds-dual-ring:after {
+  content: " ";
+  display: block;
+  width: 46px;
+  height: 46px;
+  margin: 1px;
+  border-radius: 50%;
+  border: 5px solid #28A745;
+  border-color: #28A745 transparent #28A745 transparent;
+  animation: lds-dual-ring 1.2s linear infinite;
+}
+@keyframes lds-dual-ring {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@-webkit-keyframes cellPulse {
+  0% {background-color: #FFF;}
+  25% {background-color: #FFC107;}
+  50% {background-color: #FFF;}
+  75% {background-color: #FFC107;}
+  100% {background-color: #FFF;}
+}
+
+@keyframes cellPulse {
+  0% {background-color: #FFF;}
+  25% {background-color: #FFC107;}
+  50% {background-color: #FFF;}
+  75% {background-color: #FFC107;}
+  100% {background-color: #FFF;}
+}
+
+.cell-pulse {
+  -webkit-animation: cellPulse 1s;
+          animation: cellPulse 1s;
+  -webkit-animation-iteration-count: 5;
+          animation-iteration-count: 5;
+}
+
+@media screen and (min-width: 768px){
+  .legends {
+    margin: 0 auto 0 3px;
+    width: fit-content;
+  }
+
+  .change-date {
+    width: 50%;
+    display: inline-flex !important;
+  }
+
+  .fc-header-toolbar {
+    padding: 0 15px;
+  }
+}
+
+@media screen and (max-width: 767px){
+  .legends {
+    width: 100%;
+  }
+
+  .goto {
+    width: 100%;
+    margin-top: 1em;
+    margin-bottom: 1em;
+  }
+}
+
+@media screen and (max-width: 567px){
+
+  .fc-timeline .fc-divider {
+    width: 10px !important;
+  }
+}

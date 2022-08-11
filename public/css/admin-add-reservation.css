@@ -1,0 +1,12 @@
+a.list-group-item {
+    cursor: default;
+}
+
+.total-container {
+  font-weight: bold;
+  margin-right: auto;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin-left: 1px;
+}

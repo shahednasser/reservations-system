@@ -1,0 +1,27 @@
+.container {
+  margin: 0 auto;
+}
+
+.logo {
+  height: 20em;
+  margin: 0 auto;
+  display: block;
+}
+
+.submit-btn {
+  margin: 0 auto;
+  display: block;
+  font-size: 1rem !important;
+}
+
+@media screen and (min-width: 992px){
+  .container {
+    width: 30%;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px){
+  .container {
+    width: 40%;
+  }
+}

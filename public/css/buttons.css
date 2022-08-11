@@ -1,0 +1,17 @@
+.royal-purple-button {
+    background-color: #A2346C;
+    border-color: #A2346C;
+    color: #fff;
+}
+
+.royal-purple-button:focus {
+    -webkit-box-shadow: 0 0 0 0.2rem rgba(162, 52, 108, .25);
+    -moz-box-shadow: 0 0 0 0.2rem rgba(162, 52, 108, .25);
+    box-shadow: 0 0 0 0.2rem rgba(162, 52, 108, .25);
+}
+
+.royal-purple-button:hover {
+    background-color: #962d63 !important;
+    border-color: #962d63 !important;
+    color: #fff !important;
+}

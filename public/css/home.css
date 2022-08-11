@@ -1,0 +1,12 @@
+.card-title {
+  color: #4c4c4c;
+}
+
+.card-body {
+  margin-bottom: 2em;
+}
+
+.show-more {
+  height: 2em;
+  padding: 0;
+}
