@@ -22,15 +22,15 @@ spec:
     - key: DB_PASSWORD
       value: ${db.PASSWORD}
     - key: BROADCAST_DRIVER
-      value: pusher
+      value: "pusher"
     - key: CACHE_DRIVER
-      value: file
+      value: "file"
     - key: SESSION_DRIVER
-      value: file
+      value: "file"
     - key: SESSION_LIFETIME
-      value: 120
+      value: "120"
     - key: QUEUE_DRIVER
-      value: sync
+      value: "sync"
     - key: PUSHER_APP_ID
       value: ""
     - key: PUSHER_APP_KEY
