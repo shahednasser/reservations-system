@@ -12,7 +12,7 @@ spec:
     - key: DB_CONNECTION
       value: "mysql"
     - key: DB_HOST
-      value: {db.HOSTNAME}
+      value: ${db.HOSTNAME}
     - key: DB_PORT
       value: ${db.PORT}
     - key: DB_DATABASE
