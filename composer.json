@@ -6,7 +6,7 @@
     "type": "project",
     "require": {
         "php": "^7.1.3",
-        "dompdf/dompdf": "^0.8.2",
+        "dompdf/dompdf": "^2.0.1",
         "fideloper/proxy": "^4.0",
         "laravel-notification-channels/webpush": "^3.0",
         "laravel/framework": "5.8.*",
